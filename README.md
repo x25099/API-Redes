@@ -1,2 +1,2 @@
-# API-Redes
-Trabalho da escola referente a HTML e CSS
+# CienciaDeDados-CriandoGraficosDinamicosComJavaScript
+Ciência de dados: Criando Gráficos Dinâmicos com JavaScript

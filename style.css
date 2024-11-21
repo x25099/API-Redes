@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root{
+    --cor-defundo: #ba82fa;
+    --cor-primaria:#DDDDDD;
+    --cor-secundária: #F05454;
+    --cor-terciária: darkred; 
+    --fonte: "Garamond", sans-serif;
+}
+
+body{
+    background-color: white;
+    color: white;
+    font-family: var(--fonte);
+    height: 100vh;
+    margin: 0;
+    text-align: justify;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+h1{
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0 2rem 1rem 0rem;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    transform: scale(0.90);
+    transition: transform 0.1s;
+}
+
+.grafico{
+    margin-top: 3rem;
+}
+
+#graficos-container{
+    margin: 5rem;
+}
+
+.graficos-container__texto{
+    font-size: 1.3rem;
+    text-align: justify;
+    padding: 2rem;
+    border: white solid 2px;
+}
+
+span{
+    font-weight: bold;
+    color: rgb(250, 83, 83);
+}
+
+
+
+body {
+    margin-left: 20px;
+    margin-right: 10px;
+    background:black;
+    text-align: justify;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-align: center;
+    background:linear-gradient(90deg, rgb(10, 182, 38), rgb(81, 81, 235));
+}
+
+footer{
+    background:linear-gradient(90deg,rgb(10, 182, 38), rgb(81, 81, 235));
+    text-align: justify;
+}
+
+.rodape {
+    background-color:linear-gradient(90deg, rgb(10, 182, 38), rgb(81, 81, 235));
+    text-align: center;
+}
+
+img{
+    position: absolute;
+    width: 8vw;
+    height: 10vh;
+    margin-left: 350px;
+    margin-top: 10px;
+}
